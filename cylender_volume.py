@@ -12,7 +12,7 @@ def volume(radius, height):
 
     # process
     volume = math.pi*radius**2*height
-    
+
     return volume
 
 
@@ -28,10 +28,11 @@ def main():
 
             # calling functions
             volume_calculated = volume(user_radius_int, user_height_int)
-            print("the volume of the cylinder {0:.2f}mm³.".format(volume_calculated))
+            print("the volume of the cylinder {0:.2f}mm³."
+                  .format(volume_calculated))
 
             break
-        except:
+        except Exception:
             print("that is invalid input")
             print("try again")
 
