@@ -2,7 +2,7 @@
 
 # Created by: Mohammad-al-buraiki
 # Created on January 2021
-# This program is a circle area program
+# This program is the volume of the cylinder
 
 import math
 
